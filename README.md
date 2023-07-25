@@ -21,3 +21,4 @@ Different patterns solve different problems. See below common patterns:
 
 * [Two Pointers: one input](two_pointers_one_input.py)
 * [Two Pointers: two inputs](two_pointers_two_inputs.py)
+* [Sliding window](sliding_window.py)
