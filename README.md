@@ -14,3 +14,10 @@ Table on time & space complexity on different operations over different data str
 | update element          |     O(1)     |        O(n)        |
 | get                     |     O(1)     |        O(1)        |
 | check if element exists |     O(n)     |        O(n)        |
+
+## Patterns
+
+Different patterns solve different problems. See below common patterns:
+
+* [Two Pointers: one input](two_pointers_one_input.py)
+* [Two Pointers: two inputs](two_pointers_two_inputs.py)
