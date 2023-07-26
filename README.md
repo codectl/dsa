@@ -49,3 +49,8 @@ Each pattern is useful to solve common problems.
 #### sliding window, fixed length
 
 * find the largest sum of a subarray with length *k*
+* find the max average of a subarray with length *k*
+
+#### prefix sum
+
+* find number of ways to split an array where sum of left section is greater than sum of right section
