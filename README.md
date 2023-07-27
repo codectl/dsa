@@ -53,10 +53,10 @@ Each pattern is useful to solve common problems.
 * basically, if a problem has explicit constraints such as:
   * sum greater than or less than *k*
   * limits on what is contained, such as the maximum of *k* unique elements or no duplicates allowed 
-  * and / or asks for:
-    * minimum or maximum length
-    * number of subarrays/substrings
-    * max or minimum sum
+* ... and / or asks for:
+  * minimum or maximum length
+  * number of subarrays/substrings
+  * max or minimum sum
 
 #### prefix sum
 
