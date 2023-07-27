@@ -50,6 +50,13 @@ Each pattern is useful to solve common problems.
 
 * find the largest sum of a subarray with length *k*
 * find the max average of a subarray with length *k*
+* basically, if a problem has explicit constraints such as:
+  * sum greater than or less than *k*
+  * limits on what is contained, such as the maximum of *k* unique elements or no duplicates allowed 
+  * and / or asks for:
+    * minimum or maximum length
+    * number of subarrays/substrings
+    * max or minimum sum
 
 #### prefix sum
 
