@@ -31,3 +31,24 @@ def min_sub_array_len(target: int, nums: list[int]) -> int:
             curr -= nums[left]
             left += 1
     return ans
+
+
+def count_subarrays(self, nums: list[int], k: int) -> int:
+    """Given an array of integers nums and an integer k,
+    return the number of contiguous subarrays where the
+    product of all the elements in the subarray is
+    strictly less than k.
+    """
+    if k <= 1:
+        return 0
+
+    left = ans = 0
+    curr = 1
+
+    for right in range(len(nums)):
+        curr *= nums[right]
+        while curr >= k:
+            curr //= nums[left]
+            left += 1
+        ans += right - left + 1
+    return ans
