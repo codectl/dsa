@@ -16,8 +16,8 @@ def fn(arr):
 
 
 def get_averages(nums: list[int], k: int) -> list[int]:
-    """Build and return an array avgs of length n
-    where avgs[i] is the k-radius average for the
+    """Build and return an array averages of length n
+    where averages[i] is the k-radius average for the
     subarray centered at index i.
     """
     n = len(nums)
