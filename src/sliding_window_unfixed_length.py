@@ -52,3 +52,4 @@ def count_subarrays_whose_product_less_than(nums: list[int], k: int) -> int:
             left += 1
         ans += right - left + 1
     return ans
+

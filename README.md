@@ -60,4 +60,8 @@ Each pattern is useful to solve common problems.
 
 #### prefix sum
 
-* find number of ways to split an array where sum of left section is greater than sum of right section
+
+#### counters
+  * count number of ways to split an array where sum of left section is greater than sum of right section
+  * count the length of the longest substring that contains at most *k* distinct characters. 
+  * find number of subarrays that fit an exact criteria
