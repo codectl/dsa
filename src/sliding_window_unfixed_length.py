@@ -14,7 +14,7 @@ def fn(arr):
 
 
 # EXAMPLES
-def min_sub_array_len(target: int, nums: list[int]) -> int:
+def get_min_sub_array_len(target: int, nums: list[int]) -> int:
     """Return the minimal length of a subarray
     whose sum is greater than or equal to target.
     If there is no such subarray, return 0 instead.
@@ -33,7 +33,7 @@ def min_sub_array_len(target: int, nums: list[int]) -> int:
     return ans
 
 
-def count_subarrays(self, nums: list[int], k: int) -> int:
+def count_subarrays_whose_product_less_than(nums: list[int], k: int) -> int:
     """Given an array of integers nums and an integer k,
     return the number of contiguous subarrays where the
     product of all the elements in the subarray is
